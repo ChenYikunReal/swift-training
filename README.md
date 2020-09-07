@@ -25,6 +25,9 @@ Swift学习
 ![在这里插入图片描述](https://github.com/ChenYikunReal/swift_training/blob/master/images/vscode.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
 
 
+
+![在这里插入图片描述](https://github.com/ChenYikunReal/swift_training/blob/master/images/swift-vscode.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg5NjMxOA==,size_16,color_FFFFFF,t_70)
+
 ## 代码的处理方式
 MacOS不是很熟悉；Windows使用文本编辑器可编辑，需要使用`Swift for Windows`进行编译。
 
@@ -143,3 +146,7 @@ MacOS不是很熟悉；Windows使用文本编辑器可编辑，需要使用`Swif
 - String支持+=
 - 判空用`str.isEmpty`
 - 单字符的字符串如`"A"`可以代表Character
+
+## Swift枚举
+跟C和Objective-C不同，Swift的枚举成员在被创建时不会被赋予一个默认的整型值。<br/>
+不过，只要确定一个枚举值，其余可以自动推导，默认从0开始递增1。
